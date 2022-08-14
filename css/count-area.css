@@ -1,0 +1,31 @@
+.aside-count {
+  font-size: 2.2em;
+  line-height: 1.25em;
+}
+.count-box {
+  padding: 7em 0;
+  align-items: center;
+}
+
+.counting-area .grid-1 p {
+  width: 80%;
+}
+.count-box {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}
+.counting-area .grid .grid-1 {
+  place-self: center;
+}
+.count-box .grid {
+  display: inline-grid;
+  grid-gap: 2px;
+  border-radius: 20px;
+  background-color: var(--text-light);
+  box-shadow: var(--box-shadow);
+}
+.count-box .grid > div {
+  background-color: white;
+  padding: 2em 2.5em;
+}

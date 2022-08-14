@@ -1,0 +1,16 @@
+#site-main .banner-area {
+  width: 100%;
+  background-image: var(--bg-cover);
+  background-repeat: no-repeat;
+  background-position: top right;
+  top: 0;
+}
+.banner-title {
+  height: 95vh;
+  padding: 16rem 0;
+}
+
+.branding span {
+  font-size: 3em;
+  line-height: 1.25em;
+}
